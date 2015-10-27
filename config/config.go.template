@@ -1,0 +1,8 @@
+package config
+
+var (
+	GitHubClientID     = ""
+	GitHubClientSecret = ""
+	BaseURL            = ""
+	OAuthRedirectURL   = ""
+)
