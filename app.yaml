@@ -1,0 +1,12 @@
+runtime: go
+api_version: go1
+application: mergeitis2
+version: 1
+
+vm: false
+manual_scaling:
+  instances: 1
+
+handlers:
+- url: /.*
+  script: _go_app
